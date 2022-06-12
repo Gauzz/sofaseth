@@ -1,7 +1,7 @@
 import logo from "../images/logo/logo.svg";
 import "../css/Header.css";
 import hamburger from "../images/icons/hamburger.svg";
-import close from "../images/icons/close.svg";
+// import close from "../images/icons/close.svg";
 
 function Header() {
   return (

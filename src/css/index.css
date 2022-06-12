@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

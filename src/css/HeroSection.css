@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .cta-div {
@@ -22,6 +23,17 @@
 .hero-image-div {
     display: block;
     max-width: 50%;
+    width: 400px;
+}
+
+.cta-button-mobile {
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 90%
 }
 
 img {
@@ -33,4 +45,34 @@ h1 {
     font-size: 32px;
 }
 
-@media only screen and (max-width: 768px) {}
+button {
+    border: 0;
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+    }
+    .cta-div {
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .cta-button {
+        display: none;
+    }
+    .cta-button-mobile {
+        display: block;
+    }
+    h1 {
+        line-height: 1;
+        font-size: 32px;
+    }
+    .hero-subheading {
+        text-align: center;
+    }
+    .hero-image-div {
+        margin-top: 40px;
+    }
+}

@@ -7,15 +7,17 @@ function HeroSection() {
         <
         div className = "cta-div" >
         <
-        h1 > Best sofas to make you < /h1> <
-        h1 > feel special < /h1>{" "} <
-        p > Great design, great style, great comfort. < /p>{" "} <
+        h1 > Best sofas to make you feel special < /h1>{" "} <
+        p className = "hero-subheading" > { " " }
+        Great design, great style, great comfort. { " " } <
+        /p>{" "} <
         button className = "cta-button" > Get Now < /button>{" "} <
         /div>{" "} <
         div className = "hero-image-div" > { " " } <
         img src = { hero }
         />{" "} <
         /div>{" "} <
+        button className = "cta-button-mobile" > Get Now < /button>{" "} <
         /section>
     );
 }

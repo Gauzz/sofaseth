@@ -47,4 +47,8 @@ button {
     .feature-image {
         width: 100%;
     }
+    .feature-cta {
+        display: block;
+        width: 100%;
+    }
 }

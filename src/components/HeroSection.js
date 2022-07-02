@@ -1,5 +1,5 @@
 import "../css/HeroSection.css";
-import hero from "../images/sofaseth1 2crp1.svg";
+import hero from "../images/sofaseth12crp1.svg";
 
 function HeroSection() {
     return ( <

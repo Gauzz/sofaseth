@@ -1,0 +1,50 @@
+.feature-section {
+    text-align: center;
+    padding: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-container {
+    display: flex;
+    margin-top: 3em;
+}
+
+.feature-description {
+    text-align: left;
+}
+
+.feature-image {
+    width: 50%;
+}
+
+.feature-cta {
+    padding: 0.5em 2em;
+}
+
+h1 {
+    line-height: 0.4;
+    font-size: 32px;
+}
+
+button {
+    border: 0;
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .feature-section {
+        flex-direction: column;
+    }
+    h1 {
+        line-height: 1;
+        font-size: 32px;
+    }
+    .feature-container {
+        flex-direction: column;
+    }
+    .feature-image {
+        width: 100%;
+    }
+}

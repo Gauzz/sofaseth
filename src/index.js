@@ -1,18 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./css/index.css";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import Catalogue from "./components/Catalogue";
-import FeatureSection from "./components/FeatureSection";
-import Footer from "./components/Footer";
+
+
+import Pages from "./router/Pages";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render( <React.StrictMode >
-    <Header / >
-    <HeroSection / >
-    <Catalogue / >
-    <FeatureSection / >
-    <Footer/>
+root.render( <React.StrictMode>
+    <Pages/>
     </React.StrictMode>
 );

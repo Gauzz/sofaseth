@@ -4,6 +4,14 @@ body {
     font-weight: 400;
 }
 
+* {
+    font-family: Montserrat;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+    cursor: pointer;
 }

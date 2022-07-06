@@ -1,13 +1,19 @@
 [{
+        "id": 0,
         "name": "Scott- Leather Sofa",
-        "image": "/images/johnny-briggs-Asheyr3zRLE-unsplash.jpg"
+        "image": "/images/johnny-briggs-Asheyr3zRLE-unsplash.jpg",
+        "qrcode": ""
     },
     {
+        "id": 1,
         "name": "Miki- white Sofa",
-        "image": "/images/virender-singh--NEs_HDRZIw-unsplash.jpg"
+        "image": "/images/virender-singh--NEs_HDRZIw-unsplash.jpg",
+        "qrcode": ""
     },
     {
+        "id": 2,
         "name": "Chester Field Sofa",
-        "image": "/images/new kam-idris-wF9NH87U-2E-unsplash.png"
+        "image": "/images/new kam-idris-wF9NH87U-2E-unsplash.png",
+        "qrcode": ""
     }
 ]

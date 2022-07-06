@@ -4,13 +4,13 @@ import {Link} from "react-router-dom";
 
 function CatalogueCard(props) {
     return ( <>
+     <Link to = {`/product/${props.id}`} >
         <section className = "catalogue-card" >
         <img className = "catalogue-card-img"src = { props.image } />
         <h3 > { props.name } </h3> 
-        <Link to = "/product" >
         <button className = "shop-now-btn" > Shop Now </button> 
-        </Link> 
-        </section> 
+        </section>
+        </Link>  
         </>
     );
 }

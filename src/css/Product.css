@@ -41,10 +41,12 @@
 
 .model-viewer-div {
     flex-grow: 1;
+    min-height: 50vh;
 }
 
 model-viewer {
     width: 100%;
+    height: 50vh;
 }
 
 .buy-button {
@@ -60,4 +62,77 @@ model-viewer {
     margin-top: 10px;
     font-weight: 700;
     width: 125px;
+}
+
+.product-purchase-footer {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-info-section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .product-purchase-section {
+        flex-direction: column;
+    }
+    .product-purchase-div {
+        display: none;
+    }
+    .model-viewer-div {
+        flex-grow: 1;
+        min-height: 50vh;
+        width: 100%;
+    }
+    .product-header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: stretch;
+    }
+    .back-button {
+        width: 30px;
+    }
+    .ar-cta-button {
+        width: 45px;
+        margin: 0px 2em;
+    }
+    .ar-cta-text {
+        padding: 0.5em 2em;
+        width: fit-content;
+        margin: 0;
+        flex-grow: 1;
+    }
+    .model-controls {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: space-between;
+        width: 100%;
+    }
+    .product-purchase-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .price-div-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0em 2em;
+    }
+    .product-purchase-ctas {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .buy-button {
+        padding: 0.5em 2em;
+        font-size: 1em;
+        width: 125px;
+        display: initial;
+        margin: 10px;
+    }
+    .add-to-cart-button {
+        margin: 10px;
+    }
 }

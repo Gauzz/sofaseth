@@ -32,7 +32,7 @@ return ( <>
     <section className="product-info-section">
     <section className="product-purchase-section">
     <div className="model-viewer-div">
-    <model-viewer src={`/models/${product.id}/${product.id}.glb`} ar ar-scale="fixed" camera-controls alt={`{A 3D model of ${product.name}}`} ios-src={`/models/${product.id}/${product.id}.glb`}xr-environment></model-viewer>
+    <model-viewer src={`/models/${product.id}/${product.id}.glb`} poster={`${product.poster}`} ar ar-scale="fixed" camera-controls alt={`{A 3D model of ${product.name}}`} ios-src={`/models/${product.id}/${product.id}.glb`}xr-environment></model-viewer>
     </div>
     <div className="product-purchase-div">
         <h3>{product.name}</h3>

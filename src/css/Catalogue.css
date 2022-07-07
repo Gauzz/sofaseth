@@ -19,11 +19,12 @@ button {
 
 .catalogue-container {
     display: flex;
+    justify-content: center;
 }
 
 .catalogue-card {
     width: 30vw;
-    padding: 2.5em;
+    padding: 1em;
 }
 
 .shop-now-btn {
